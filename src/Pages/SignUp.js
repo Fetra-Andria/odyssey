@@ -1,11 +1,7 @@
 import React from 'react';
 
 const SignUp = () => {
-    return (
-        <div>
-            <h1>Sign-up</h1>
-        </div>
-    );
+    return <h1 className='sign-up'>Sing Up</h1>;
 };
 
 export default SignUp;

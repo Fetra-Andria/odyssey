@@ -1,11 +1,8 @@
 import React from 'react';
+import '../Style/App.css';
 
 const Products = () => {
-    return (
-        <div>
-            <h1>Products</h1>
-        </div>
-    );
+    return <h1 className='products'>Products</h1>;
 };
 
 export default Products;
